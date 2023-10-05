@@ -25,10 +25,10 @@ int main()
 
     switch (ch) {
     case 1:
-        ptr = new Car;
+        ptr = new Car();
         break;
     case 2:
-        ptr = new Ship;
+        ptr = new Ship();
         break;
     case 3:
         ptr = new Airplane();
@@ -37,7 +37,7 @@ int main()
         ptr = new Tram();
         break;
     case 5:
-        ptr = new Motorcycle;
+        ptr = new Motorcycle();
         break;
     default:
         cout << "Wrong Input!" << endl;

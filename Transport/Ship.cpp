@@ -5,7 +5,7 @@ void Ship::Input()
 {
 	Transport::Input();
 
-	cout << "Input the number of passengers: ";
+	cout << "Input the number of Decks: ";
 	cin >> numberOfDecks;
 }
 
@@ -13,7 +13,7 @@ void Ship::Print()
 {
 	Transport::Print();
 
-	cout << "Number of passengers: " << numberOfDecks << endl;
+	cout << "Number of Decks: " << numberOfDecks << endl;
 }
 
 int Ship::GetNumberOfDecks() const
